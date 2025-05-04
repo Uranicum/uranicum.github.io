@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Зв’яжіться з нами через електронну пошту, форму або завітайте до офісу в Ужгороді.">
+    <meta name="keywords" content="контакти, зв'язок, адреса, телефон, форма зворотного зв'язку, мапа">
+    <title>Контакти — Наш сайт</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+<header>
+    <h1>Контакти</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="pro-nas.html">Про нас</a></li>
+        <li><a href="poslugy.html">Послуги</a></li>
+        <li><a href="kontakty.html">Контакти</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+        <h2>Як з нами зв’язатися</h2>
+        <p>Email: <a href="mailto:c.pohorilyi.maksym@student.uzhnu.edu.ua">c.pohorilyi.maksym@student.uzhnu.edu.ua</a></p>
+        <p>Телефон: +38 (066) 484-39-34</p>
+        <p>Адреса: вулиця Українська, 19, Ужгород, Закарпатська область, 88000</p>
+        <img src="images/contact.jpg" alt="Контактна форма або офіс">
+    </section>
+
+    <section>
+        <h2>Ми на карті</h2>
+        <div style="overflow:hidden; border-radius:12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+            <iframe
+                src="https://www.google.com/maps?q=вулиця+Українська,+19,+Ужгород&output=embed"
+                width="100%"
+                height="350"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <section>
+    <h2>Форма зворотного зв’язку</h2>
+    <form action="https://formsubmit.co/c.pohorilyi.maksym@student.uzhnu.edu.ua" method="POST">
+        <!-- Приховані поля -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://yourdomain.com/dyakuyemo.html">
+
+        <label for="name">Ім’я:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Повідомлення:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Надіслати</button>
+    </form>
+</section>
+</main>
+
+<footer>
+    <p>© 2025 Всі права захищено | Наш сайт</p>
+</footer>
+
+</body>
+</html>
